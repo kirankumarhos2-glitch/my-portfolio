@@ -42,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Database Manager",
     icon: creator,
   },
 ];
@@ -73,16 +73,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -91,10 +83,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -108,63 +96,43 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
+// Experience Section from Resume
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Microsoft Azure Intern",
+    company_name: "itree dynamics solution",
+    icon: meta, 
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2025 - May 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on Real-time Industrial Application of Microsoft Power Platforms.",
+      "Gained hands-on experience with Azure cloud services and deployment.",
+      "Collaborated with the team to optimize cloud-based solutions.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Java Full Stack Intern",
+    company_name: "Jay Blues Technology",
+    icon: starbucks, 
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Internship",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on both Frontend and Backend development using Java technologies.",
+      "Developed scalable web applications and managed database integration.",
+      "Enhanced skills in Java, SQL, and web frameworks.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Java Programming Intern",
+    company_name: "Teragon, Hassan",
+    icon: tesla, 
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2022 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Applied object-oriented principles to create efficient, modular Java applications.",
+      "Learned core software development practices and coding standards.",
     ],
   },
 ];
@@ -172,92 +140,127 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Kiran demonstrated exceptional problem-solving skills during the internship.",
+    name: "Project Manager",
+    designation: "Manager",
+    company: "itree dynamics",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "A dedicated developer with a strong grasp of full-stack technologies.",
+    name: "Tech Lead",
+    designation: "Lead",
+    company: "Jay Blues Tech",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
+// Projects Section from Resume
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crop Disease Detection",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Implemented a deep learning model using Convolutional Neural Networks (CNN) to detect plant diseases from leaf images.",
+    tags: [
+      {
+        name: "CNN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DeepLearning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent, // Using placeholder image
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "School Management",
+    description:
+      "A web-based system for managing students, staff, attendance, and transportation. Includes dynamic pickup point mapping.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: jobit, // Using placeholder image
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Gym Management",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a web-based system for managing gym memberships, attendance, and billing.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "PHP",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tripguide, // Using placeholder image
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Smart Gardening IoT",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Implemented an IoT-based system for automated plant care and real-time monitoring using Raspberry Pi.",
     tags: [
       {
-        name: "nextjs",
+        name: "iot",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "raspberrypi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "python",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: carrent, // Using placeholder image
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Automated Approval",
+    description:
+      "Built an automated Purchase Order approval workflow using Power Automate, integrating D365 F&O with Teams and Outlook.",
+    tags: [
+      {
+        name: "power-automate",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "D365",
+        color: "green-text-gradient",
+      },
+      {
+        name: "power-apps",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit, // Using placeholder image
     source_code_link: "https://github.com/",
   },
 ];
