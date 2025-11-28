@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Full Stack Developer <br className='sm:block hidden' />
-            specializing in Java, React, and SQL.
+            specializing in Java, PHP<br/> React, and SQL.
           </p>
         </div>
       </div>
@@ -38,8 +38,10 @@ const Hero = () => {
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: "loop",
+                
+
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-3 h-3 rounded-full bg-secondary mb-1 translate-x-5'
             />
           </div>
         </a>

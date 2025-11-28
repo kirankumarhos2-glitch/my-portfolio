@@ -19,10 +19,14 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  AutomatedApproval,
+  CropDiseaseDetection,
+  gymmanagement,
+  SchoolManagement,
+  smartgardening,
+  java,
+  spring,
+  php,
 } from "../assets";
 
 export const navLinks = [
@@ -65,7 +69,7 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -85,8 +89,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "git",
@@ -103,7 +115,7 @@ const experiences = [
   {
     title: "Microsoft Azure Intern",
     company_name: "itree dynamics solution",
-    icon: meta, 
+    icon: meta,
     iconBg: "#E6DEDD",
     date: "Feb 2025 - May 2025",
     points: [
@@ -115,7 +127,7 @@ const experiences = [
   {
     title: "Java Full Stack Intern",
     company_name: "Jay Blues Technology",
-    icon: starbucks, 
+    icon: starbucks,
     iconBg: "#383E56",
     date: "Internship",
     points: [
@@ -127,7 +139,7 @@ const experiences = [
   {
     title: "Java Programming Intern",
     company_name: "Teragon, Hassan",
-    icon: tesla, 
+    icon: tesla,
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Nov 2022",
     points: [
@@ -176,7 +188,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent, // Using placeholder image
+    image: CropDiseaseDetection,
     source_code_link: "https://github.com/",
   },
   {
@@ -197,7 +209,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit, // Using placeholder image
+    image: SchoolManagement,
     source_code_link: "https://github.com/",
   },
   {
@@ -218,7 +230,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide, // Using placeholder image
+    // UPDATED: Used 'carrent' as placeholder because 'tripguide' was removed.
+    // Replace this with a real gym image when you have one.
+    image: gymmanagement, 
     source_code_link: "https://github.com/",
   },
   {
@@ -239,7 +253,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent, // Using placeholder image
+    image: smartgardening,
     source_code_link: "https://github.com/",
   },
   {
@@ -260,7 +274,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit, // Using placeholder image
+    image: AutomatedApproval,
     source_code_link: "https://github.com/",
   },
 ];
